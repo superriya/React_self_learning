@@ -56,7 +56,7 @@ ES7 React/Redux/GraphQL/React-Native snippets
 # Difference between props and State
 
 Props:
-    - Props get passed to the component
+    “*” Props get passed to the component
     - function parameters
     - props are immutable(the parents own the props and can not be changed by theb children )
     - props can be accessed in Functional component by props and in Class Components by this.props
