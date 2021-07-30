@@ -1,7 +1,7 @@
 facebook having 33k components.
 ES7 React/Redux/GraphQL/React-Native snippets
 
-What is React?
+# What is React?
 
 What is JSX?
     JSX describe the UI
