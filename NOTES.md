@@ -83,11 +83,11 @@ ES7 React/Redux/GraphQL/React-Native snippets
     - 2 approach : use arrow function in render method 
         - <button onClick={ () => this.clickHandler()}>Click</button> 
 
-    - 3 approach : use bind keyword in constructor method
+    - 3 approach : use bind keyword in class constructor
         - this.clickHandler = this.clickHandler.bind(this)
 
 
-    - 4 approach : event binding using arrow function
+    - 4 approach : event binding using arrow function in class property
         - clickHandler = () => {
                 this.setState({
                     message : "Goodbye!"
