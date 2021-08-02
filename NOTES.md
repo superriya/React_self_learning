@@ -66,3 +66,14 @@ ES7 React/Redux/GraphQL/React-Native snippets
     - Variables declared in the function body
     - state can be changed (state on the other hand managed by the component and hence component has full control to change the state)
     - state can be accessed in Functional component by useState Hook and in Class Components by this.state
+
+
+# Destructuring props and state
+
+- when the user interacts with our applications events are fired e.g. mouseover, mouseclick, keypress, changeEvent and so on.
+- In React onclick event c has to be camelcase/uppercase
+
+# Event handling in function and class
+
+# Binding Event Handlers(Event bindig is required in react)
+- there are 4 types of approach to binding events
