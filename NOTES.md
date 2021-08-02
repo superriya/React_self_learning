@@ -77,3 +77,20 @@ ES7 React/Redux/GraphQL/React-Native snippets
 
 # Binding Event Handlers(Event bindig is required in react)
 - there are 4 types of approach to binding events
+    - 1 approach : use bind keyword in render method 
+        - <button onClick={this.clickHandler.bind(this)}>Click</button> 
+
+    - 2 approach : use arrow function in render method 
+        - <button onClick={ () => this.clickHandler()}>Click</button> 
+
+    - 3 approach : use bind keyword in constructor method
+        - this.clickHandler = this.clickHandler.bind(this)
+
+
+    - 4 approach : event binding using arrow function
+        - clickHandler = () => {
+                this.setState({
+                    message : "Goodbye!"
+                })
+            }
+        <button onClick={ this.clickHandler }>Click</button>

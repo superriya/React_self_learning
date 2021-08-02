@@ -6,7 +6,7 @@ function FunctionClick() {
     }
     return (
         <div>
-            <button onClick={clickHandler}>Clicked</button>
+            <button onClick={clickHandler}>Click</button>
         </div>
     )
 }
