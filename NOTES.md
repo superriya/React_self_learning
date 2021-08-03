@@ -94,3 +94,18 @@ ES7 React/Redux/GraphQL/React-Native snippets
                 })
             }
         <button onClick={ this.clickHandler }>Click</button>
+
+    - Template literals (Template strings)
+        - Template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.
+        - Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression}). 
+        - The expressions in the placeholders and the text between the backticks (` `) get passed to a function.
+        - it's feature in ES6 and it's not feature to specific in React.
+
+    - Method's as Props
+        - create method in parent component and passing that method as props in child component
+            <button onClick={ props.greetHandler }>Greet Parent!</button>
+        - pass string parameter from child component to parent component using arrow function 
+            <button onClick={ () => props.greetHandler('child')}>Greet Parent!</button>
+
+    - Conditional Rendering
+        - if/else

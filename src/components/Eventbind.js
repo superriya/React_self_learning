@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Eventbind extends Component {
+class Eventbind extends Component {
     constructor(props) {
         super(props)
     
