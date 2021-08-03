@@ -108,4 +108,9 @@ ES7 React/Redux/GraphQL/React-Native snippets
             <button onClick={ () => props.greetHandler('child')}>Greet Parent!</button>
 
     - Conditional Rendering
-        - if/else
+        1. if/else
+            - if/else statement don't work inside the JSX and it's not valid because JSX is just synthactic sugur for function calls and object construction. 
+
+        2. Element variables
+        3. Ternary conditional operator
+        4. Short circuit operator

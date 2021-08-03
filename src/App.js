@@ -9,11 +9,13 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import Eventbind from './components/Eventbind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 
 function App() {
   return (
     <div className="App">
+      <UserGreeting />
       {/* <Greet name="Supriya">
         <p>This is a greet children</p>
       </Greet>
@@ -33,12 +35,13 @@ function App() {
       <Message />
       <br />
       <Counter /> */}
-      <FunctionClick />
+      {/* <FunctionClick />
       <ClassClick />  
       <Eventbind />
 
       <br />
-      <ParentComponent />
+      <ParentComponent /> */}
+      
     </div>
   );
 }
