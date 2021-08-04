@@ -95,19 +95,19 @@ ES7 React/Redux/GraphQL/React-Native snippets
             }
         <button onClick={ this.clickHandler }>Click</button>
 
-    - Template literals (Template strings)
+    # Template literals (Template strings)
         - Template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.
         - Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression}). 
         - The expressions in the placeholders and the text between the backticks (` `) get passed to a function.
         - it's feature in ES6 and it's not feature to specific in React.
 
-    - Method's as Props
+    # Method's as Props
         - create method in parent component and passing that method as props in child component
             <button onClick={ props.greetHandler }>Greet Parent!</button>
         - pass string parameter from child component to parent component using arrow function 
             <button onClick={ () => props.greetHandler('child')}>Greet Parent!</button>
 
-    - Conditional Rendering
+    # Conditional Rendering
         1. if/else
             - if/else statement don't work inside the JSX and it's not valid because JSX is just synthactic sugur for function calls and object construction. 
 
@@ -115,20 +115,20 @@ ES7 React/Redux/GraphQL/React-Native snippets
         3. Ternary conditional operator
         4. Short circuit operator
 
-    - List and keys
+    # List and keys
         - key prop is a special string attribute you need to include when creating a list of elements.
         - keys give the elements a stable identity
         - keys help React identify which items have changed, are added, or are removed.
         - Help in efficient update of the user interface. 
         - key prop attribute is not accessible in the child component. 
 
-    - Index as key anti-pattern
+    # Index as key anti-pattern
         - How to use the index as a key when rendering list and when to use index as a key?
             - The items in your list do not have a unique id.
             - The list is a static list and will not change.
             - The list will never be reordered or filtered.
     
-    - Styling React Components
+    # Styling React Components
         1. CSS stylesheets
         2. inline styling
         3. CSS Modules
