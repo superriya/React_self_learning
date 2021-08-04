@@ -22,11 +22,14 @@ function NameList() {
             skills: ['Html , ', 'CSS , ', 'Java']
         }
     ]
+    const names = ['name1', 'name2', 'name3', 'name4']
     // const personList = persons.map(person => <h4>I am {person.name}. I am {person.age} years old. I have {person.skills} skills</h4>)
     const personList = persons.map(person => <Person key={person.id} person={person} />)
+    const nameList = names.map((name, index) => <h3 key={index}>{index} {name}</h3>)
     return (
         <div>
             { personList }
+            {nameList}
         </div>
     )
 }

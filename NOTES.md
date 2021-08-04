@@ -121,3 +121,9 @@ ES7 React/Redux/GraphQL/React-Native snippets
         - keys help React identify which items have changed, are added, or are removed.
         - Help in efficient update of the user interface. 
         - key prop attribute is not accessible in the child component. 
+
+    - Index as key anti-pattern
+        - How to use the index as a key when rendering list and when to use index as a key?
+            - The items in your list do not have a unique id.
+            - The list is a static list and will not change.
+            - The list will never be reordered or filtered.
