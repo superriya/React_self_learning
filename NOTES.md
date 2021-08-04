@@ -114,3 +114,10 @@ ES7 React/Redux/GraphQL/React-Native snippets
         2. Element variables
         3. Ternary conditional operator
         4. Short circuit operator
+
+    - List and keys
+        - key prop is a special string attribute you need to include when creating a list of elements.
+        - keys give the elements a stable identity
+        - keys help React identify which items have changed, are added, or are removed.
+        - Help in efficient update of the user interface. 
+        - key prop attribute is not accessible in the child component. 

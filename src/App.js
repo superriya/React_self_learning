@@ -11,12 +11,14 @@ import Eventbind from './components/Eventbind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import BindInConstructor from './components/BindInConstructor';
+import NameList from './components/NameList';
 
 
 function App() {
   return (
     <div className="App">
-      <BindInConstructor />
+      <NameList />
+      {/* <BindInConstructor /> */}
       {/* <UserGreeting /> */}
       {/* <Greet name="Supriya">
         <p>This is a greet children</p>
