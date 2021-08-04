@@ -127,3 +127,10 @@ ES7 React/Redux/GraphQL/React-Native snippets
             - The items in your list do not have a unique id.
             - The list is a static list and will not change.
             - The list will never be reordered or filtered.
+    
+    - Styling React Components
+        1. CSS stylesheets
+        2. inline styling
+        3. CSS Modules
+            - CSS will not applied to child component.
+        4. CSS in JS Libaries
