@@ -10,12 +10,14 @@ import ClassClick from './components/ClassClick';
 import Eventbind from './components/Eventbind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import BindInConstructor from './components/BindInConstructor';
 
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <BindInConstructor />
+      {/* <UserGreeting /> */}
       {/* <Greet name="Supriya">
         <p>This is a greet children</p>
       </Greet>
