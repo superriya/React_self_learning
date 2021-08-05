@@ -139,3 +139,32 @@ ES7 React/Redux/GraphQL/React-Native snippets
         1. input text
         2. textarea
         3. select 
+    
+    # Component Lifecycle Methods
+        1. Mounting
+            - When an instance of a component is being created and inserted into the DOM
+            - Mounting have four methods
+                1. constructor
+                2. static getDerivedStateFromProps
+                3. render
+                4. componentDidMount
+
+        2. Updating
+            - When a component is being re-rendered as a result of a changes to either it's props or state
+            - Updating have five methods
+                1. static getDerivedStateFromProps
+                2. shouldComponentUpdate
+                3. render 
+                4. getSnapShotBeforeUpdate
+                5. componentDidUpdate
+
+        3. Unmounting
+            - When a component is being removed from the DOM
+            - Unmounting we just have only one method
+                1. componentWillUnmount
+
+        4. Error Handling
+            - When there is an error during rendering, in a lifecycle method, or in the constructor of any child component.
+            - Error have two methods
+                1. state getDerivedStateFromError
+                2. componentDidCatch
