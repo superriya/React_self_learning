@@ -196,6 +196,22 @@ ES7 React/Redux/GraphQL/React-Native snippets
                 </>
                 );
             }
-            
+
+        - Keyed Fragments
+            - Fragments declared with the explicit <React.Fragment> syntax may have keys. 
+            function Glossary(props) {
+                return (
+                    <dl>
+                    {props.items.map(item => (
+                        // Without the `key`, React will fire a key warning
+                        <React.Fragment key={item.id}>
+                        <dt>{item.term}</dt>
+                        <dd>{item.description}</dd>
+                        </React.Fragment>
+                    ))}
+                    </dl>
+                );
+            } 
+            - key is the only attribute that can be passed to Fragment.
 
     # Pure Components
