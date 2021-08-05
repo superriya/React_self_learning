@@ -148,6 +148,8 @@ ES7 React/Redux/GraphQL/React-Native snippets
                 2. static getDerivedStateFromProps
                 3. render
                 4. componentDidMount
+                    - Invoked immediately after a component and all it's children components have been rendered to the DOM.
+                    - Interact with the DOM or perform any ajax calls to load data.
 
         2. Updating
             - When a component is being re-rendered as a result of a changes to either it's props or state
@@ -156,6 +158,7 @@ ES7 React/Redux/GraphQL/React-Native snippets
                 2. shouldComponentUpdate
                 3. render 
                 4. getSnapShotBeforeUpdate
+                    - Capture some information from the DOM.
                 5. componentDidUpdate
 
         3. Unmounting
@@ -168,3 +171,31 @@ ES7 React/Redux/GraphQL/React-Native snippets
             - Error have two methods
                 1. state getDerivedStateFromError
                 2. componentDidCatch
+
+    # Fragments
+        - A common pattern in React is for a component to return multiple elements. 
+        - Fragments let you group a list of children without adding extra nodes to the DOM.
+            render() {
+                return (
+                    <React.Fragment>
+                    <ChildA />
+                    <ChildB />
+                    <ChildC />
+                    </React.Fragment>
+                );
+            }
+
+        - Short Syntax
+            - There is a new, shorter syntax you can use for declaring fragments. It looks like empty tags:
+            
+            render() {
+                return (
+                <>
+                    <td>Hello</td>
+                    <td>World</td>
+                </>
+                );
+            }
+            
+
+    # Pure Components
