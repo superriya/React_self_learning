@@ -134,3 +134,8 @@ ES7 React/Redux/GraphQL/React-Native snippets
         3. CSS Modules
             - CSS will not applied to child component.
         4. CSS in JS Libaries
+
+    # Controlled Component - Form handling
+        1. input text
+        2. textarea
+        3. select 
