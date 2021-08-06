@@ -215,3 +215,10 @@ ES7 React/Redux/GraphQL/React-Native snippets
             - key is the only attribute that can be passed to Fragment.
 
     # Pure Components
+            - We can create a component by extending the PureComponent class.
+            - A regular component does not implement the shouldComponentUpdate method. It always returns true by default.
+            - A pure component on the other hand implements shouldComponentUpdate lifecycle method with a shallow props and state comparison. 
+            - Pure Components in React are the components which do not re-renders when the value of state and props has been updated with the same values.
+            - Pure Components are introduced for performance enhancement to improve the performance of your components. 
+            - Never mutate the state. Always return a new object that reflects the new state.
+        
