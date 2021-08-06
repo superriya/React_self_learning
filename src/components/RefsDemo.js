@@ -18,6 +18,9 @@ class RefsDemo extends Component {
         // this.inputRef.current.focus()
         // console.log(this.inputRef)
     }
+    clickHandler = () => {
+        alert(this.cbRef.value)
+    }
     
     render() {
         return (
@@ -25,6 +28,7 @@ class RefsDemo extends Component {
                 <h1>Ref Demo with createRef() and callbackRef (cbRef)</h1>
                 <input type="text" ref={this.inputRef} />
                 <input type="text" ref={this.setcbRef} />
+                <button onClick={this.clickHandler}>Get Input Value</button>
             </div>
         )
     }
