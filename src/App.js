@@ -14,13 +14,15 @@ import BindInConstructor from './components/BindInConstructor';
 import NameList from './components/NameList';
 import Form from './components/Form';
 import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <RefsDemo />
+      {/* <ParentComp /> */}
       {/* <Form /> */}
       {/* <NameList /> */}
       {/* <BindInConstructor /> */}
