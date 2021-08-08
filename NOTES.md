@@ -2,6 +2,9 @@ facebook having 33k components.
 ES7 React/Redux/GraphQL/React-Native snippets
 
 # What is React?
+- React is a library for building user interfaces.
+- How do we make API calls in React?
+- React components simply read props & state and render the UI. 
 
 # What is JSX?
 - JSX is nothing but a JavaScript XML where we can write HTML code into JavaScript and place them in the DOM without using any function like appendChild() or createElement().
@@ -241,3 +244,26 @@ ES7 React/Redux/GraphQL/React-Native snippets
     - This is typically not necessary for most components in the application.
     - However, it can be useful for some kinds of components, especially in reusable component libraries.
             
+    # React Portals (30)
+    - Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.
+    
+    # HTTP and React
+    - HTTP library (axios)
+     - npm install axios
+     - axios will be added in package.json file
+
+    # HTTP GET Request  
+    - Fetching data in a react application 
+    - use of axios to make a GET request to the JSONPlaceholder API.
+    - invoke the get method on axios library.
+    - axios.get()
+    - this method accepts the api endpoint as it's argument.
+    - axios is a promise base library so we can add then() and catch() blocks
+
+    # HTTP Post Request
+    - simplest way to post a data to a server
+    - destructure: const() and assign to the input value
+    - post methods takes two argument
+        - API endpoint
+        - this.state
+    
