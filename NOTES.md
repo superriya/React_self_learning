@@ -231,3 +231,7 @@ ES7 React/Redux/GraphQL/React-Native snippets
     - Refs make it possible to access DOM Node directly within react .
     - e.g. on page load we want input fields to be focus 
     - fetch the input value
+
+    # Refs with Class Components
+    - if we need a ref to a child component from a parent component it is possible in Class Components 
+    - refs can not be attached to a functional components.
