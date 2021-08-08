@@ -235,3 +235,15 @@ ES7 React/Redux/GraphQL/React-Native snippets
     # Refs with Class Components
     - if we need a ref to a child component from a parent component it is possible in Class Components 
     - refs can not be attached to a functional components.
+
+    # Forwarding Refs
+    - Ref forwarding is a technique for automatically passing a ref through a parent component to one of its children. 
+    - This is typically not necessary for most components in the application.
+    - However, it can be useful for some kinds of components, especially in reusable component libraries.
+        -   const FRInput = React.forwardRef((props, ref) => {
+                return (
+                    <div>
+                        <input type="text" ref={ref}/>
+                    </div>
+                )
+            }) 

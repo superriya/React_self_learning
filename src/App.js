@@ -15,13 +15,17 @@ import NameList from './components/NameList';
 import Form from './components/Form';
 import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
+import ParentInput from './components/ParentInput';
+import FRParentInput from './components/FRParentInput';
 
 
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      <FRParentInput />
+      {/* <ParentInput /> */}
+      {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
       {/* <Form /> */}
       {/* <NameList /> */}
