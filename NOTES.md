@@ -240,7 +240,7 @@ ES7 React/Redux/GraphQL/React-Native snippets
     - Ref forwarding is a technique for automatically passing a ref through a parent component to one of its children. 
     - This is typically not necessary for most components in the application.
     - However, it can be useful for some kinds of components, especially in reusable component libraries.
-        -   const FRInput = React.forwardRef((props, ref) => {
+            const FRInput = React.forwardRef((props, ref) => {
                 return (
                 <div>
                     <input type="text" ref={ref}/>
