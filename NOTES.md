@@ -4,10 +4,10 @@ ES7 React/Redux/GraphQL/React-Native snippets
 # What is React?
 
 # What is JSX?
-    JSX is nothing but a JavaScript XML where we can write HTML code into JavaScript and place them in the DOM without using any function like appendChild() or createElement().
-    JSX is not a necessary to write React Application, but JSX makes your react code simpler and elegant
-    JSX ultimately transpiles to pure JavaScript which is understood by the browsers. 
-    JSX describe the UI
+- JSX is nothing but a JavaScript XML where we can write HTML code into JavaScript and place them in the DOM without using any function like appendChild() or createElement().
+- JSX is not a necessary to write React Application, but JSX makes your react code simpler and elegant
+- JSX ultimately transpiles to pure JavaScript which is understood by the browsers. 
+- JSX describe the UI
 
 # What is Virtual Dom?
     Virtual Dom is the blueprint of Real Dom.
@@ -41,10 +41,10 @@ ES7 React/Redux/GraphQL/React-Native snippets
 # what is arrow function?
 
 # What is component State?
-    state is a reserved keyword in react.
-    State is nothing but an object that is privetly maintain inside a component
-        never modify the states directly insted make use of setState()
-        if we use it directly react will not render the component
+- State is a reserved keyword in react.
+- State is nothing but an object that is privetly maintain inside a component.
+- never modify the states directly insted make use of setState()
+- if we use it directly, react will not render the component
     
 
 # what is setState()?
