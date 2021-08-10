@@ -38,9 +38,9 @@
 -   
         app.get('/', function(req, res){
 
-            Fetch from database
-            Load pages
-            Return JSON
-            Full access to request and response
+            // Fetch from database
+            // Load pages
+            // Return JSON
+            // Full access to request and response
     
         });
