@@ -35,12 +35,13 @@
 - Express has a router so we can store routes in separate files and export
 - we can parse incoming data with the body parser
 
-    -  /** app.get('/', function(req, res){
-             
-                Fetch from database
-                Load pages
-                Return JSON
-                Full access to request and response
-        
+    /** 
+        app.get('/', function(req, res){
+            
+            Fetch from database
+            Load pages
+            Return JSON
+            Full access to request and response
+    
         });
-        */
+    */
