@@ -27,3 +27,18 @@
     });
 
     app.listen(5000);
+
+# Basic Route Handling
+- Handling request/routes is simple
+- app.get(), app.post(), app.put(), app.delete(), etc.
+- Access to params, query strings, url parts, etc.
+- Express has a router so we can store routes in separate files and export
+- we can parse incoming data with the body parser
+    app.get('/', function(req, res){
+        /*: 
+            Fetch from database
+            Load pages
+            Return JSON
+            Full access to request and response
+        */
+    });
