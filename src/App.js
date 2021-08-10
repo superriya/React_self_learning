@@ -17,13 +17,17 @@ import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
 import ParentInput from './components/ParentInput';
 import FRParentInput from './components/FRParentInput';
+import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput />
+      <PostForm />
+      {/* <PostList /> */}
+      {/* <FRParentInput /> */}
       {/* <ParentInput /> */}
       {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
