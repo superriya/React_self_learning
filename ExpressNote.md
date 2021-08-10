@@ -37,7 +37,6 @@
 
     /** 
         app.get('/', function(req, res){
-            
             Fetch from database
             Load pages
             Return JSON
