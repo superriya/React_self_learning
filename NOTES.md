@@ -17,16 +17,17 @@ ES7 React/Redux/GraphQL/React-Native snippets
     whenever HTML elements get changed, then the Virtual Dom gets updated.
 
 # What is Functional component and Class Components
-    Two component types
+- Two component types
 
         Stateless Functionl component
+            Functional components are nothing but JavaScript functions and therefore can be declared using an arrow function or the function keyword:
             JavaScript functions
-                simple functions
-                use Func components as much as possible
-                absence of 'this' keyword
-                solution without using state
-                Mainly responsible for the ui 
-                Stateless/dumb/presentional
+            simple functions
+            use Func components as much as possible
+            absence of 'this' keyword
+            solution without using state
+            Mainly responsible for the ui 
+            Stateless/dumb/presentional
 
         Stateful class component   
             class extending component class
@@ -266,4 +267,50 @@ ES7 React/Redux/GraphQL/React-Native snippets
     - post methods takes two argument
         - API endpoint
         - this.state
-    
+
+    # React Hooks -  V-43
+    - Hooks are a new feature addition in React Version 16.8 which allows you to use React features without having to write a class.
+    - only call Hooks at the top level
+    - only call Hooks from React functions
+    - ex. State of a component
+    - Hooks don't work inside classes
+
+    # Why Hooks?
+    - Understand how this keyword works in javascript
+    - Remember to bind event handlers to class components
+    - there is no perticular way to reuse stateful component logic
+
+    # Custom Hook
+
+    * https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/master/react/reactjs-quiz.md
+
+    # Error Boundary
+    - Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. 
+    - Error Boundaries will catch the error and display a fallback UI.
+    - A class component becomes an Error Boundry by defining either or both of getDerivedStateFromError and
+    componentDidCatch lifecycle methods. 
+    - The placements of the Error Boundary also matters as it controls if the entire app should have the fall-back UI or just the component causing the problem.
+    ````
+        class ErrorBoundary extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = { hasError: false };
+            }
+
+            static getDerivedStateFromError(error) {
+                return { hasError: true };
+            }
+
+            componentDidCatch(error, errorInfo) {
+                logErrorToMyService(error, errorInfo);
+            }
+
+            render() {
+                if (this.state.hasError) {
+                return <h1>Something went wrong.</h1>;
+                }
+
+                return this.props.children; 
+            }
+        }
+    ````

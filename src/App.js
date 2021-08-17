@@ -19,13 +19,29 @@ import ParentInput from './components/ParentInput';
 import FRParentInput from './components/FRParentInput';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
+import MyComponent from './components/MyComponent';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <PostForm />
+      <ErrorBoundary>
+        <Hero heroName="Superman"/>
+      </ErrorBoundary>
+
+      <ErrorBoundary>
+        <Hero heroName="Batsman"/>
+      </ErrorBoundary>
+      
+      <ErrorBoundary>
+        <Hero heroName="Joker"/>
+      </ErrorBoundary>
+      {/* <MyComponent /> */}
+      {/* <PostForm /> */}
       {/* <PostList /> */}
       {/* <FRParentInput /> */}
       {/* <ParentInput /> */}

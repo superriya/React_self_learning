@@ -44,3 +44,19 @@
             // Full access to request and response
     
         });
+        
+# What is the difference between VAR and const?
+- var declarations are globally scoped or function scoped while let and const are block scoped. 
+- var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; 
+- const variables can neither be updated nor re-declared. 
+- The value of a constant can't be changed through reassignment, and it can't be redeclared.
+- They are all hoisted to the top of their scope.
+
+# Express Middelware
+- 
+
+# Start
+- install Node.js
+- npm init -y
+- npm install express
+- npm install -D nodemon
